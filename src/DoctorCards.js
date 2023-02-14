@@ -101,7 +101,7 @@ const doctors = [
 
 function DoctorCards() {
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" id="doctor">
       <h2 className="text-center my-4">Our Doctors</h2>
       <div className="row">
         {doctors.map((doctor) => (

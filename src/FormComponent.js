@@ -30,7 +30,7 @@ const FormComponent = () => {
   return (
     <div className="container">
       <h2 className="py-4 mb-3 text-center">Patient sample collection form</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} id="sample">
         <div className="my-3">
           <label htmlFor="username">Patient name:</label>
           <input
